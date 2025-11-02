@@ -1,16 +1,16 @@
-# Engenharia de Dados Ética — Aplicativo Web
+# Ethical Data Engineering — Web Application
 
-Este projeto se trata de um App Web educativo e interativo que aborda conceitos fundamentais sobre **Engenharia de Dados com foco em Ética**. Ele foi desenvolvido utilizando apenas **HTML**, **CSS** e **JavaScript puro**, sem o uso de frameworks ou bibliotecas externas.
+## 📄 Description
+This project is an educational and interactive Web App that introduces fundamental concepts of **Data Engineering with a focus on Ethics**. It was developed using only **HTML**, **CSS**, and **vanilla JavaScript**, without external frameworks or libraries.
 
-## 📁 Estrutura do Projeto
-
+## 📁 Project Structure
 ```
 src/
 ├── index.html
 ├── pages/
-│   ├── introducao.html
+│   ├── introduction.html
 │   ├── roadmap.html
-│   └── quizz.html
+│   └── quiz.html
 ├── styles/
 │   ├── main.css
 │   └── ...
@@ -21,43 +21,33 @@ src/
     └── ...
 ```
 
-- `index.html`: Página principal com navegação para as demais seções.
-- `pages/`: Contém páginas adicionais:
-  - `introducao.html`: Introdução ao tema ética na engenharia de dados.
-  - `roadmap.html`: Roadmap de aprendizagem e boas práticas.
-  - `quizz.html`: Quiz interativo para reforçar o conteúdo aprendido.
-- `styles/`: Estilos CSS utilizados no projeto. Cada página contém o seu próprio.
-- `scripts/`: Scripts JavaScript para interação e funcionalidades. Cada página contém o seu próprio.
-- `images/`: Imagens utilizadas no projeto.
+## Running the project
 
-## 🌐 Como Executar
-
-1. Clone este repositório:
+1. Clone the repository:
    ```bash
-   git clone git@github.com:Jose-Nt/EthicalDataEngineeringGuide.git
+   git clone git@github.com:Jose-Nt/ethical-dataengineering-web-guide.git
    ```
-2. Abra o arquivo `index.html` diretamente no navegador (não requer servidor local, mas caso deseje basta hospedar o serviço).
+2. Open the `index.html` file directly in the browser (no local server required, but you may host it if desired).
 
-## 🎯 Objetivo
+## Purpose
 
-O objetivo deste projeto é:
+The purpose of this project is to:
 
-- Informar sobre a importância da ética no uso e processamento de dados.
-- Apresentar práticas responsáveis dentro da engenharia de dados.
-- Fornecer um roadmap para quem deseja aprofundar seus conhecimentos.
-- Testar o conhecimento por meio de um quiz.
+- Highlight the importance of ethics in data handling and processing.
+- Present responsible practices in data engineering.
+- Provide a roadmap for users who want to deepen their knowledge.
+- Test knowledge through an interactive quiz.
 
-## 🧠 Conteúdo Abordado
+## Topics Covered
 
-- Privacidade e anonimização
-- Transparência e prestação de contas
-- Consentimento e uso responsável
+- Privacy and anonymization
+- Transparency and accountability
+- Consent and responsible data usage
 
-## 📄 Licença
-
-Licensa livre necessária apenas referência aos autores.
-
-## 👤 Autores
+## 👤 Authors
 
 - José Neto Souza
 - Robson Bezerra
+
+## License
+Free use permitted — attribution required.
